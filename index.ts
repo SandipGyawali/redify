@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
  * Defined Routes
  */
 app.use("/restro", restroRouter);
-app.use("/cuisine", cuisineRouter);
+app.use("/cuisines", cuisineRouter);
 
 /**
  * Global Error Handler.
